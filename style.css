@@ -1,0 +1,120 @@
+*{
+    font-family: 'manrope', sans-serif;
+    box-sizing: border-box;
+  }
+  html,
+  body{
+    background-image: linear-gradient(to right top, #376dbe, #536cc4, #6c6ac8, #8467ca, #9c62c9);
+  }
+  header{
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 90px;
+    padding: 0 40px;
+  }
+  header .logo{
+    font-size: medium;
+    font-family: cursive;
+    font-weight: 700;
+  }
+  header .menu ul{
+    display: flex;
+  }
+  header .menu ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header .menu li a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding-right: 30px;
+  }
+  header .menu li a:hover{
+     background-color: rgba(255, 255, 255, .4);
+     padding: 7px 7px;
+     border-radius: 15px;
+     width: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+   
+  .container{
+    max-width: 1400px;
+    margin-left: 10%;
+  }
+  #home{
+    height: calc(100vh-90px);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #home .left-section{
+    width: 50%;
+  }
+  #home .left-section h1{
+    font-size: 3.3rem;
+    font-weight: 900;
+    color: azure;
+    margin-bottom: 2rem;
+  }
+  #home .left-section h4{
+    margin-left: 30%;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: azure;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+  }
+  #home .left-section .class-action{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #home .left-section .class-action .action-btn{
+    background: white;
+    border-radius: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right: 40px;   
+  }
+  #home .left-section .class-action .action-ghost-btn{
+    background: white;
+    border-radius: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: 500;
+  
+  }
+  #home .photos{
+    width: 50%;
+    position: relative;
+  }
+  #home .photos .first{
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+    transform: translate3d(0,20px,0);
+  }
+   
+  #home .photos .second{
+    width: 300px;
+    height: 400px;
+    z-index: 2;
+    transform: translate3d(200px,-50px,0);
+  }
